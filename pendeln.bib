@@ -1,3 +1,9 @@
+% Folding in diesem File
+% Die Datei enthält ganz am Schluss eine Modline, die die foldmethod setzt
+% (=marker). Die gefoldeten Anteile müssen in dreifache geschweifte Klammern
+% gesetzt werden {{{ }}}, Zeichen zum Auskommentieren sind dabei egal. Mit zo
+% wird der Fold geöffnet, mit zc geschlossen. zM schliesst alle Folds, egal
+% wo der Cursor ist, zR öffnet alle.
 
 @STRING(pub-roadbike = "{R}oad{BIKE}")
 @STRING(TO = "Tour")
@@ -17,35 +23,7 @@
 @STRING(tweet = "Tweet")
 @STRING(video = "Video-Datei")
 
-@MAGAZINE{Flieshardt2015,
-        author={Flieshardt, Nils},
-        title={{R}egeln f{\"u}r {R}ad- und {A}utofahrer: {V}ertragt {E}uch endlich!},
-        journal = pub-roadbike,
-        page={61--64},
-        year={2015},
-        issue={7},
-        language = {ngerman},
-        keywords = {Verkehrsregeln, Magazin, Autofahrer},
-        otherinfo = {}
-}
-
-@MISC{Lindthaler2015perfektesfahrradpendler,
-        author={Lindthaler, Gerhard},
-        title={{D}as perfekte {F}ahrrad f{\"u}r {P}endler},
-        journal = {das-fahrrad-blog.de},
-        howpublished={[Blog-Eintrag]},
-        url = {http://www.das-fahrrad-blog.de/content/2013-das-perfekte-fahrrad-fur-pendler.htm},
-        lastchecked = {27.12.2015},
-} 
-
-@BOOK{Baumeister2014disziplin,
-        author = {Roy Baumeister and John Tierney},
-        title = {{D}ie {M}acht der {D}isziplin},
-        publisher = {Goldmann},
-        year = {2014},
-        address = {},
-        edition = {3},
-} 
+% Forum-Beiträge {{{
 
 @MISC{iglimann2011rennradnews,
         author = {{User igliman}},
@@ -57,7 +35,6 @@
         url =   {http://www.rennrad-news.de/forum/threads/mdrza-mit-dem-rad-zur-arbeit.102814/#post-2224617},
         lastchecked =   {01.01.2016}
 }
-
 
 @MISC{efix2011rennradnews,
         author = {{User Efix}},
@@ -103,44 +80,8 @@
         url =   {http://www.rennrad-news.de/forum/threads/mdrza-mit-dem-rad-zur-arbeit.102814/page-5#post-2280456},
         lastchecked =   {02.01.2016},
 }
-
-@MISC{Hurford2015hangover,
-        author = {Molly Hurford},
-        title = {how to ride with a hangover},
-        howpublished = {[Blog-Beitrag]},
-        month = {\APACmonth{12}},
-        year = {2015},
-        day = {31},
-        lastchecked = {03.01.2016},
-        url = {http://www.bicycling.com/training/health-injuries/how-to-ride-with-a-hangover},
-        otherinfo = {Artikel als PDF abgespeichert}
-}
-
-@article{swift1998alcohol,
-  title={Alcohol hangover},
-  author={Swift, Robert and Davidson, Dena},
-  journal={Alcohol Health Res World},
-  volume={22},
-  pages={54--60},
-  year={1998}
-}
-
-@BOOK{velominati2014rules,
-        author = {{Velominati}},
-        title = {The Rules -- The Way of the Cycling Disciple},
-        publisher = {Sceptre},
-        year = {2014},
-        edition = {1},
-        otherinfo = {}
-}
-
-@BOOKLET{nada2014erlaubtemedikamente,
-        title = {{B}eispielliste zul{\"a}ssiger {M}edikamente 2014},
-        author = {{Nationale Anti Doping Agentur Deutschland}},
-        howpublished = {[PDF]},
-        year = {2014},
-        url = {http://www.nada.de/fileadmin/user_upload/nada/Downloads/Broschueren/Beispielliste_2014.pdf},
-}
+% }}} Forum-Beiträge
+% Fahren in Kälte und Winter {{{ 
 
 @MISC{bbc2015wigginswinter,
         author = {{BBC News}},
@@ -154,17 +95,43 @@
         otherinfo = {},
 }
 
-@MISC{Roemer2014ironmanvollzeitjob,
-        author = {J{\"o}rg R{\"o}mer},
-        title = {{I}ronman trotz {V}ollzeitjob -- 40 {S}tunden arbeiten, 20 {S}tunden trainieren},
-        howpublished = {[Karriere Spiegel]},
-        month = {\APACmonth{10}},
-        year = {2014},
-        day = {11},
-        lastchecked = {02.10.2016},
-        url = {http://www.spiegel.de/karriere/ironman-auf-hawaii-triathlontraining-fuer-berufstaetige-a-995854.html},
-        otherinfo = {Artikel als PDF abgespeichert},
+@MISC{cw2016wintertraining,
+        author = CW,
+        title = {{Dos and don'ts of winter training}},
+        type =          video,
+        year =          2016,
+        month =         {\APACmonth{11}},
+        day =           {11},
+        url =           {https://youtu.be/RxBVPn1iXGM},
+        lastchecked =   {17.11.2016},
+        howpublished = {},
+        otherinfo = {
+                Training planen, Ziele setzen, Indoor-Training z.B. Speed (reverse periodization),
+                Off road riding (ist sicherer mit MTB, Velo-Beherrschung üben),
+                Gute Kleidung, Licht, Extra Food (Riegel)
+        }
 }
+
+@MISC{gcn2015winterproofbike,
+        author = GCN,
+        title = {{How To Winter-Proof Your Road Bike}},
+        type =          video,
+        year =          2015,
+        month =         {\APACmonth{10}},
+        day =           {19},
+        url =           {https://youtu.be/HwTAA5Y-4-4},
+        lastchecked =   {17.11.2016},
+        howpublished = {},
+        otherinfo = { Velo nach jeder Fahrt im Regen reinigen.  Fett auf unteres Kugellager am Steuerrohr.  
+                Wachs auf Lack als Schutz.  Werkzeug mitnehmen, insbesondere im Winter.  
+                Extra Schlauch mitnehmen, da Risiko von Platten grösser.  
+                Carbon-Rader wg. Bremswirkung austauschen mit billigeren Rädern.  
+                Schutzbleche oder Ass-Saver.  Licht, zumindst Rücklicht.        
+        }
+}
+
+% }}} Fahren in Kälte und Winter
+% Fahren im Regen {{{
 
 @MISC{Glass2014cyclingrain,
         author = {Aoife Glass},
@@ -248,6 +215,46 @@
         otherinfo = {Abgespeichert als PDF im Verzeichnis shelf}
 }
 
+% }}} Fahren im Regen
+% Allgemeine Themen {{{
+
+@BOOK{velominati2014rules,
+        author = {{Velominati}},
+        title = {The Rules -- The Way of the Cycling Disciple},
+        publisher = {Sceptre},
+        year = {2014},
+        edition = {1},
+        otherinfo = {}
+}
+
+@BOOKLET{nada2014erlaubtemedikamente,
+        title = {{B}eispielliste zul{\"a}ssiger {M}edikamente 2014},
+        author = {{Nationale Anti Doping Agentur Deutschland}},
+        howpublished = {[PDF]},
+        year = {2014},
+        url = {http://www.nada.de/fileadmin/user_upload/nada/Downloads/Broschueren/Beispielliste_2014.pdf},
+}
+
+@BOOK{Baumeister2014disziplin,
+        author = {Roy Baumeister and John Tierney},
+        title = {{D}ie {M}acht der {D}isziplin},
+        publisher = {Goldmann},
+        year = {2014},
+        address = {},
+        edition = {3},
+} 
+
+@MISC{Roemer2014ironmanvollzeitjob,
+        author = {J{\"o}rg R{\"o}mer},
+        title = {{I}ronman trotz {V}ollzeitjob -- 40 {S}tunden arbeiten, 20 {S}tunden trainieren},
+        howpublished = {[Karriere Spiegel]},
+        month = {\APACmonth{10}},
+        year = {2014},
+        day = {11},
+        lastchecked = {02.10.2016},
+        url = {http://www.spiegel.de/karriere/ironman-auf-hawaii-triathlontraining-fuer-berufstaetige-a-995854.html},
+        otherinfo = {Artikel als PDF abgespeichert},
+}
 
 @MISC{officepony2016organspendeausweis,
         author = {{B{\"u}ro ist kein {P}onyhof}},
@@ -261,38 +268,53 @@
         otherinfo = {Abgespeichert in www.getpocket.com}
 }
 
-@MISC{cw2016wintertraining,
-        author = CW,
-        title = {{Dos and don'ts of winter training}},
-        type =          video,
-        year =          2016,
-        month =         {\APACmonth{11}},
-        day =           {11},
-        url =           {https://youtu.be/RxBVPn1iXGM},
-        lastchecked =   {17.11.2016},
-        howpublished = {},
-        otherinfo = {
-                Training planen, Ziele setzen, Indoor-Training z.B. Speed (reverse periodization),
-                Off road riding (ist sicherer mit MTB, Velo-Beherrschung üben),
-                Gute Kleidung, Licht, Extra Food (Riegel)
-        }
+@MAGAZINE{Flieshardt2015,
+        author={Flieshardt, Nils},
+        title={{R}egeln f{\"u}r {R}ad- und {A}utofahrer: {V}ertragt {E}uch endlich!},
+        journal = pub-roadbike,
+        page={61--64},
+        year={2015},
+        issue={7},
+        language = {ngerman},
+        keywords = {Verkehrsregeln, Magazin, Autofahrer},
+        otherinfo = {}
 }
 
-@MISC{gcn2015winterproofbike,
-        author = GCN,
-        title = {{How To Winter-Proof Your Road Bike}},
-        type =          video,
-        year =          2015,
-        month =         {\APACmonth{10}},
-        day =           {19},
-        url =           {https://youtu.be/HwTAA5Y-4-4},
-        lastchecked =   {17.11.2016},
-        howpublished = {},
-        otherinfo = { Velo nach jeder Fahrt im Regen reinigen.  Fett auf unteres Kugellager am Steuerrohr.  
-                Wachs auf Lack als Schutz.  Werkzeug mitnehmen, insbesondere im Winter.  
-                Extra Schlauch mitnehmen, da Risiko von Platten grösser.  
-                Carbon-Rader wg. Bremswirkung austauschen mit billigeren Rädern.  
-                Schutzbleche oder Ass-Saver.  Licht, zumindst Rücklicht.        
-        }
+@MISC{Lindthaler2015perfektesfahrradpendler,
+        author={Lindthaler, Gerhard},
+        title={{D}as perfekte {F}ahrrad f{\"u}r {P}endler},
+        journal = {das-fahrrad-blog.de},
+        howpublished={[Blog-Eintrag]},
+        url = {http://www.das-fahrrad-blog.de/content/2013-das-perfekte-fahrrad-fur-pendler.htm},
+        lastchecked = {27.12.2015},
+} 
+% }}} Allgemeine Themen
+% Alkohol {{{
+
+@MISC{Hurford2015hangover,
+        author = {Molly Hurford},
+        title = {how to ride with a hangover},
+        howpublished = {[Blog-Beitrag]},
+        month = {\APACmonth{12}},
+        year = {2015},
+        day = {31},
+        lastchecked = {03.01.2016},
+        url = {http://www.bicycling.com/training/health-injuries/how-to-ride-with-a-hangover},
+        otherinfo = {Artikel als PDF abgespeichert}
 }
 
+@article{swift1998alcohol,
+  title={Alcohol hangover},
+  author={Swift, Robert and Davidson, Dena},
+  journal={Alcohol Health Res World},
+  volume={22},
+  pages={54--60},
+  year={1998}
+}
+% }}} Alkohol
+% Bücher {{{
+
+}}}
+
+% Modline
+% vim:foldmethod=marker:foldlevel=0
